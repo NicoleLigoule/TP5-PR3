@@ -1,4 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AgregarSucursal.aspx.cs" Inherits="TP5_GRUPO_1.AgregarSucursal" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AgregarSucursal.aspx.cs"
+    Inherits="TP5_GRUPO_1.AgregarSucursal" %>
 
 <!DOCTYPE html>
 
@@ -20,7 +21,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-        &nbsp;<table class="auto-style1">
+            &nbsp;<table class="auto-style1">
                 <tr>
                     <td colspan="3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <asp:LinkButton ID="LinkButton1" runat="server">Agregar Sucursal</asp:LinkButton>
@@ -28,7 +29,7 @@
                 </tr>
                 <tr>
                     <td class="auto-style3"><strong>GRUPO N°<br />
-                        </strong></td>
+                    </strong></td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
