@@ -11,7 +11,7 @@ namespace TP5_GRUPO_1
 {
 
 
-    public partial class Ejercicio1
+    public partial class AgregarSucursal
     {
 
         /// <summary>
