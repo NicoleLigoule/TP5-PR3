@@ -27,6 +27,8 @@
                         <asp:LinkButton ID="lbAgregar" runat="server">Agregar Sucursal</asp:LinkButton>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <asp:LinkButton ID="lbListado" runat="server">Listado de Sucursales</asp:LinkButton>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:LinkButton ID="lbEliminarSucursal" runat="server">Eliminar sucursal</asp:LinkButton>
                     </td>
                 </tr>
                 <tr>
@@ -37,7 +39,9 @@
                 </tr>
                 <tr>
                     <td><strong>Agregar Sucursal</strong></td>
-                    <td>&nbsp;</td>
+                    <td>
+                        <asp:TextBox ID="txtAgregarSucursal" runat="server"></asp:TextBox>
+                    </td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
