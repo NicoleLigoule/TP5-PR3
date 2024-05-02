@@ -16,6 +16,16 @@ namespace TP5_GRUPO_1
 
         protected void btnAceptar_Click(object sender, EventArgs e)
         {
+            String consulta = "insert into Sucursal(NombreSucursal,DescripcionSucursal,Id_ProvinciaSucursal,DireccionSucursal) values (" + txtAgregarSucursal.Text + ",'" + txtDescripcion.Text + "'," + ddlProvincia.SelectedValue + "'," + txtboxDireccion.Text + ")";
+            /*int filas = conexion.ejecutaAgregado(consulta);
+            if (filas == 0)
+            {
+                No se agregaba a a base de datos
+            }
+            else
+            {
+                //Se agrego con exito
+            }*/
 
         }
     }
