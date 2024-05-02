@@ -11,5 +11,15 @@ namespace TP5_GRUPO_1
     public class ClassSQLconexion
     {
         private String ruta = "Data Source=localhost\\sqlexpress;Initial Catalog = BDSucursales; Integrated Security = True";
+        public int ejecutaAgregado(string consulta)
+        {
+
+
+         SqlConnection conexion = new SqlConnection(ruta);
+
+
+         }
+            
+        
     }
 }
