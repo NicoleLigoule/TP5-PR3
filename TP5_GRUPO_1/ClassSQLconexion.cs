@@ -13,13 +13,13 @@ namespace TP5_GRUPO_1
         private String ruta = "Data Source=localhost\\sqlexpress;Initial Catalog = BDSucursales; Integrated Security = True";
         public int ejecutaAgregado(string consulta)
         {
+            SqlConnection conexion = new SqlConnection(ruta);
+            conexion.Open();
 
+            SqlCommand comando = new SqlCommand(consulta, conexion);
 
-         SqlConnection conexion = new SqlConnection(ruta);
-
-
-         }
-            
-        
+            int filasAfectadas = comando.ExecuteNonQuery();
+            return filasAfectadas;
+        }        
     }
 }
