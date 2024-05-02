@@ -131,7 +131,8 @@
                         <asp:Button ID="btnAceptar" runat="server" Height="28px" OnClick="btnAceptar_Click" Text="Aceptar" Width="92px" />
                     </td>
                     <td class="auto-style24">
-                        &nbsp;</td>
+                        <asp:Label ID="lblMensaje" runat="server"></asp:Label>
+                    </td>
                     <td class="auto-style16">&nbsp;</td>
                 </tr>
             </table>

@@ -17,7 +17,7 @@ namespace TP5_GRUPO_1
             conexion.Open();
 
             SqlCommand comando = new SqlCommand(consulta, conexion);
-
+    
             int filasAfectadas = comando.ExecuteNonQuery();
             return filasAfectadas;
         }        
