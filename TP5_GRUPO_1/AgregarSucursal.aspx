@@ -99,7 +99,7 @@
                         <asp:TextBox ID="txtAgregarSucursal" runat="server" Width="164px"></asp:TextBox>
                     </td>
                     <td class="auto-style26">
-                        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtAgregarSucursal">puto el que lee</asp:RequiredFieldValidator>
+                        
                     </td>
                 </tr>
                 <tr>
@@ -112,14 +112,16 @@
                     <td class="auto-style13"></td>
                 </tr>
                 <tr>
-                    <td class="auto-style22">&nbsp;</td>
-                    <td class="auto-style24">&nbsp;</td>
+                    <td class="auto-style22">
+                        <asp:Label runat="server" Text="Provincia:" ID="ctl00"></asp:Label>&nbsp;</td>
+                    <td class="auto-style24"><asp:DropDownList runat="server" ID="ddlProvincia"></asp:DropDownList>&nbsp;</td>
                     <td class="auto-style24">&nbsp;</td>
                     <td class="auto-style16">&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style22">&nbsp;</td>
-                    <td class="auto-style24">&nbsp;</td>
+                    <td class="auto-style22">
+                        <asp:Label runat="server" Text="Direccion:" ID="lblDireccion"></asp:Label>&nbsp;</td>
+                    <td class="auto-style24"><asp:TextBox runat="server" ID="txtboxDireccion"></asp:TextBox>&nbsp;</td>
                     <td class="auto-style24">&nbsp;</td>
                     <td class="auto-style16">&nbsp;</td>
                 </tr>
