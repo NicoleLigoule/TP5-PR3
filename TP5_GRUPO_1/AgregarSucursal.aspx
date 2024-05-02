@@ -113,7 +113,7 @@
                 </tr>
                 <tr>
                     <td class="auto-style22">
-                        <asp:Label runat="server" Text="Provincia:" ID="ctl00"></asp:Label>&nbsp;</td>
+                        <asp:Label runat="server" Text="Provincia:" ID="lblProvincia"></asp:Label>&nbsp;</td>
                     <td class="auto-style24"><asp:DropDownList runat="server" ID="ddlProvincia"></asp:DropDownList>&nbsp;</td>
                     <td class="auto-style24">&nbsp;</td>
                     <td class="auto-style16">&nbsp;</td>
