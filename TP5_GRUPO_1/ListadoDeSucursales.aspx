@@ -39,7 +39,9 @@
                     <td>
                         <asp:TextBox ID="txtBusqueda" runat="server"></asp:TextBox>
                     </td>
-                    <td>&nbsp;</td>
+                    <td>
+                        <asp:Button ID="btnFiltrar" runat="server" Text="Filtrar" />
+                    </td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
