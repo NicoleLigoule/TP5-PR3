@@ -35,8 +35,10 @@
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td>Busqueda ingrese Id sucursal:</td>
+                    <td>
+                        <asp:TextBox ID="txtBusqueda" runat="server"></asp:TextBox>
+                    </td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
