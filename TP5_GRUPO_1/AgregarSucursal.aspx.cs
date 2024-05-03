@@ -14,10 +14,10 @@ namespace TP5_GRUPO_1
     {
         private ClassSQLconexion conexion = new ClassSQLconexion();
         protected void Page_Load(object sender, EventArgs e)
-        {
+        {  
             if (!IsPostBack)
             {
-               // cargarProvincias();
+                cargarProvincias();
             }
         }
 
@@ -41,29 +41,35 @@ namespace TP5_GRUPO_1
             txtAgregarSucursal.Text = "";
             txtDescripcion.Text = "";
             txtboxDireccion.Text = "";
+            ddlProvincia.SelectedIndex = 0;
         }
 
 
-        //protected void cargarProvincias()
-        //{
+        protected void cargarProvincias()
+        {
+            if (!IsPostBack)
+            {
+                string consulta = "SELECT DescripcionProvincia, Id_Provincia FROM dbo.Provincia";
+                List<string> provincias = new List<string>();
+                using (SqlConnection conexion = new SqlConnection("Data Source=localhost\\sqlexpress; Initial Catalog = BDSucursales; Integrated Security = True"))
+                {
+                    SqlCommand commandprov = new SqlCommand(consulta, conexion);
+                    conexion.Open();
+                    SqlDataReader reader = commandprov.ExecuteReader();
 
-        //    string consulta = "SELECT Id_Provincia, DescripcionProvincia FROM dbo.Provincia";
-        //    if (!IsPostBack)
-        //    {
-        //        SqlConnection conexion = new SqlConnection("Data Source=localhost\\sqlexpress;Initial Catalog = BDSucursales; Integrated Security = True");
-        //        SqlCommand commandprov = new SqlCommand(consulta, conexion);
-        //        conexion.Open();
-        //        SqlDataReader reader = commandprov.ExecuteReader();
-
-        //        ddlProvincia.DataSource = reader;
-        //        ddlProvincia.DataTextField = "DescripcionProvincia";
-        //        ddlProvincia.DataValueField = "Id_Provincia";
-        //        ddlProvincia.DataBind();
-        //        conexion.Close();
-        //    }
-        //    
-        //    //ddlProvincia.Items.Insert(0, new ListItem("-- Seleccione una provincia --", ""));
-        //}
+                    while (reader.Read())
+                    {
+                        string provincia = reader["DescripcionProvincia"].ToString();
+                        if (!provincias.Contains(provincia))
+                        {
+                            provincias.Add(provincia);
+                            ddlProvincia.Items.Add(new ListItem(provincia, reader["Id_Provincia"].ToString()));
+                        }
+                    }
+                }
+                ddlProvincia.Items.Insert(0, new ListItem("-- Seleccionar --", ""));
+            }
+        }
 
     }
 }
