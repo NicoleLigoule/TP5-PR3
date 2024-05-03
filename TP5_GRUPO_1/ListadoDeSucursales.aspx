@@ -40,7 +40,7 @@
                         <asp:TextBox ID="txtBusqueda" runat="server"></asp:TextBox>
                     </td>
                     <td>
-                        <asp:Button ID="btnFiltrar" runat="server" Text="Filtrar" />
+                        <asp:Button ID="btnFiltrar" runat="server" Text="Filtrar" OnClick="btnFiltrar_Click" />
                     </td>
                     <td>&nbsp;</td>
                 </tr>
