@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Nicole\\Desktop\\TP-pr3\\TP5_GRUPO_1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{768B37E0-EEB4-40B2-B117-1F8F93AAB779}|TP5_GRUPO_1.csproj|c:\\users\\nicole\\desktop\\tp-pr3\\tp5_grupo_1\\agregarsucursal.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{768B37E0-EEB4-40B2-B117-1F8F93AAB779}|TP5_GRUPO_1.csproj|solutionrelative:agregarsucursal.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{768B37E0-EEB4-40B2-B117-1F8F93AAB779}|TP5_GRUPO_1.csproj|C:\\Users\\Nicole\\Desktop\\TP-pr3\\TP5_GRUPO_1\\agregarsucursal.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{768B37E0-EEB4-40B2-B117-1F8F93AAB779}|TP5_GRUPO_1.csproj|solutionrelative:agregarsucursal.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{768B37E0-EEB4-40B2-B117-1F8F93AAB779}|TP5_GRUPO_1.csproj|C:\\Users\\Nicole\\Desktop\\TP-pr3\\TP5_GRUPO_1\\classsqlconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{768B37E0-EEB4-40B2-B117-1F8F93AAB779}|TP5_GRUPO_1.csproj|solutionrelative:classsqlconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{768B37E0-EEB4-40B2-B117-1F8F93AAB779}|TP5_GRUPO_1.csproj|C:\\Users\\Nicole\\Desktop\\TP-pr3\\TP5_GRUPO_1\\agregarsucursal.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{768B37E0-EEB4-40B2-B117-1F8F93AAB779}|TP5_GRUPO_1.csproj|solutionrelative:agregarsucursal.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{768B37E0-EEB4-40B2-B117-1F8F93AAB779}|TP5_GRUPO_1.csproj|C:\\Users\\Nicole\\Desktop\\TP-pr3\\TP5_GRUPO_1\\agregarsucursal.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{768B37E0-EEB4-40B2-B117-1F8F93AAB779}|TP5_GRUPO_1.csproj|solutionrelative:agregarsucursal.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{768B37E0-EEB4-40B2-B117-1F8F93AAB779}|TP5_GRUPO_1.csproj|C:\\Users\\Nicole\\Desktop\\TP-pr3\\TP5_GRUPO_1\\agregarsucursal.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{768B37E0-EEB4-40B2-B117-1F8F93AAB779}|TP5_GRUPO_1.csproj|solutionrelative:agregarsucursal.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{768B37E0-EEB4-40B2-B117-1F8F93AAB779}|TP5_GRUPO_1.csproj|c:\\users\\nicole\\desktop\\tp-pr3\\tp5_grupo_1\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{768B37E0-EEB4-40B2-B117-1F8F93AAB779}|TP5_GRUPO_1.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{768B37E0-EEB4-40B2-B117-1F8F93AAB779}|TP5_GRUPO_1.csproj|C:\\Users\\Nicole\\Desktop\\TP-pr3\\TP5_GRUPO_1\\classsqlconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{768B37E0-EEB4-40B2-B117-1F8F93AAB779}|TP5_GRUPO_1.csproj|solutionrelative:classsqlconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Nicole\\Desktop\\TP-pr3\\TP5_GRUPO_1\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "C:\\Users\\Nicole\\Desktop\\TP-pr3\\TP5_GRUPO_1\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-05-03T07:51:24.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ClassSQLconexion.cs",
               "DocumentMoniker": "C:\\Users\\Nicole\\Desktop\\TP-pr3\\TP5_GRUPO_1\\ClassSQLconexion.cs",
               "RelativeDocumentMoniker": "ClassSQLconexion.cs",
@@ -38,24 +55,25 @@
               "RelativeToolTip": "ClassSQLconexion.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T02:11:08.645Z"
+              "WhenOpened": "2024-05-02T02:11:08.645Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AgregarSucursal.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Nicole\\Desktop\\TP-pr3\\TP5_GRUPO_1\\AgregarSucursal.aspx.cs",
               "RelativeDocumentMoniker": "AgregarSucursal.aspx.cs",
               "ToolTip": "C:\\Users\\Nicole\\Desktop\\TP-pr3\\TP5_GRUPO_1\\AgregarSucursal.aspx.cs",
               "RelativeToolTip": "AgregarSucursal.aspx.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAqwBYAAAAAAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAUwBEAAABaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-30T22:32:40.356Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "AgregarSucursal.aspx",
               "DocumentMoniker": "C:\\Users\\Nicole\\Desktop\\TP-pr3\\TP5_GRUPO_1\\AgregarSucursal.aspx",
               "RelativeDocumentMoniker": "AgregarSucursal.aspx",
@@ -63,7 +81,8 @@
               "RelativeToolTip": "AgregarSucursal.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-04-30T22:32:24.554Z"
+              "WhenOpened": "2024-04-30T22:32:24.554Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -73,9 +92,10 @@
               "RelativeDocumentMoniker": "AgregarSucursal.aspx.designer.cs",
               "ToolTip": "C:\\Users\\Nicole\\Desktop\\TP-pr3\\TP5_GRUPO_1\\AgregarSucursal.aspx.designer.cs",
               "RelativeToolTip": "AgregarSucursal.aspx.designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIYAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T22:32:45.802Z"
+              "WhenOpened": "2024-04-30T22:32:45.802Z",
+              "EditorCaption": ""
             }
           ]
         }

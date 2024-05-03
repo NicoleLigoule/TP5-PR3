@@ -99,6 +99,9 @@
                         <asp:TextBox ID="txtAgregarSucursal" runat="server" Width="164px"></asp:TextBox>
                     </td>
                     <td class="auto-style26">
+                        <asp:RequiredFieldValidator runat="server" ErrorMessage="*"
+                            ID="rfvtxtAgregarSucursal" ControlToValidate="txtAgregarSucursal" ValidationGroup="group1"
+                            ForeColor="Red">Ingrese un Nombre Sucursal.</asp:RequiredFieldValidator>
                         
                     </td>
                 </tr>
@@ -108,6 +111,9 @@
                         <asp:TextBox ID="txtDescripcion" runat="server" Width="167px"></asp:TextBox>
                     </td>
                     <td class="auto-style27">
+                        <asp:RequiredFieldValidator runat="server" ErrorMessage="*"
+                            ForeColor="Red" ID="rfvtxtboxDescripcion" ControlToValidate="txtDescripcion"
+                            ValidationGroup="group1">Ingrese una descripcion.</asp:RequiredFieldValidator>
                         &nbsp;</td>
                     <td class="auto-style13"></td>
                 </tr>
@@ -115,25 +121,32 @@
                     <td class="auto-style22">
                         <asp:Label runat="server" Text="Provincia:" ID="lblProvincia"></asp:Label>&nbsp;</td>
                     <td class="auto-style24"><asp:DropDownList runat="server" ID="ddlProvincia"></asp:DropDownList>&nbsp;</td>
-                    <td class="auto-style24">&nbsp;</td>
+                    <td class="auto-style24">
+                        <asp:RequiredFieldValidator runat="server" ErrorMessage="*"
+                            ID="rfvDdlProvincia" ValidationGroup="group1" ControlToValidate="ddlProvincia"
+                            ForeColor="Red">Seleccione una provincia.</asp:RequiredFieldValidator>&nbsp;</td>
                     <td class="auto-style16">&nbsp;</td>
                 </tr>
                 <tr>
                     <td class="auto-style22">
                         <asp:Label runat="server" Text="Direccion:" ID="lblDireccion"></asp:Label>&nbsp;</td>
                     <td class="auto-style24"><asp:TextBox runat="server" ID="txtboxDireccion"></asp:TextBox>&nbsp;</td>
-                    <td class="auto-style24">&nbsp;</td>
+                    <td class="auto-style24">
+                        <asp:RequiredFieldValidator runat="server" ErrorMessage="*"
+                            ForeColor="Red" ValidationGroup="group1" ID="rfvtxtDireccion" ControlToValidate="txtBoxDireccion">Ingrese una dirección</asp:RequiredFieldValidator>&nbsp;</td>
                     <td class="auto-style16">&nbsp;</td>
                 </tr>
                 <tr>
                     <td class="auto-style22">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
                     <td class="auto-style24">
-                        <asp:Button ID="btnAceptar" runat="server" Height="28px" OnClick="btnAceptar_Click" Text="Aceptar" Width="92px" />
+                        <asp:Button ID="btnAceptar" runat="server" Height="28px" OnClick="btnAceptar_Click"
+                            Text="Aceptar" Width="92px" ValidationGroup="group1" />
                     </td>
                     <td class="auto-style24">
                         <asp:Label ID="lblMensaje" runat="server"></asp:Label>
                     </td>
-                    <td class="auto-style16">&nbsp;</td>
+                    <td class="auto-style16">&nbsp;
+                    </td>
                 </tr>
             </table>
         </div>

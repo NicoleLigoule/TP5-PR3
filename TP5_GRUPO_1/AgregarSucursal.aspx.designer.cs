@@ -69,6 +69,15 @@ namespace TP5_GRUPO_1
         protected global::System.Web.UI.WebControls.TextBox txtAgregarSucursal;
 
         /// <summary>
+        /// rfvtxtAgregarSucursal control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvtxtAgregarSucursal;
+
+        /// <summary>
         /// txtDescripcion control.
         /// </summary>
         /// <remarks>
@@ -76,6 +85,15 @@ namespace TP5_GRUPO_1
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtDescripcion;
+
+        /// <summary>
+        /// rfvtxtboxDescripcion control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvtxtboxDescripcion;
 
         /// <summary>
         /// lblProvincia control.
@@ -96,6 +114,15 @@ namespace TP5_GRUPO_1
         protected global::System.Web.UI.WebControls.DropDownList ddlProvincia;
 
         /// <summary>
+        /// rfvDdlProvincia control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvDdlProvincia;
+
+        /// <summary>
         /// lblDireccion control.
         /// </summary>
         /// <remarks>
@@ -112,6 +139,15 @@ namespace TP5_GRUPO_1
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtboxDireccion;
+
+        /// <summary>
+        /// rfvtxtDireccion control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvtxtDireccion;
 
         /// <summary>
         /// btnAceptar control.
