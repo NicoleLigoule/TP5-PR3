@@ -11,6 +11,43 @@
         }
         .auto-style2 {
             font-size: x-large;
+            width: 234px;
+            height: 50px;
+        }
+        .auto-style3 {
+            width: 234px;
+        }
+        .auto-style4 {
+            width: 160px;
+        }
+        .auto-style6 {
+            width: 160px;
+            height: 50px;
+        }
+        .auto-style8 {
+            height: 50px;
+        }
+        .auto-style9 {
+            width: 234px;
+            height: 22px;
+        }
+        .auto-style10 {
+            width: 160px;
+            height: 22px;
+        }
+        .auto-style12 {
+            height: 22px;
+        }
+        .auto-style14 {
+            width: 229px;
+            height: 50px;
+        }
+        .auto-style15 {
+            width: 229px;
+        }
+        .auto-style16 {
+            width: 229px;
+            height: 22px;
         }
     </style>
 </head>
@@ -19,40 +56,43 @@
         <div>
             <table class="auto-style1">
                 <tr>
-                    <td>
+                    <td class="auto-style3">
                         <asp:LinkButton ID="lbAgregar" runat="server">Agregar Sucursal</asp:LinkButton>
                         <br />
                     </td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style4">
+                        <asp:LinkButton ID="lbListadoDeSucursales" runat="server">Listado de sucursales</asp:LinkButton>
+                    </td>
+                    <td class="auto-style15">&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
                     <td class="auto-style2"><strong>Listado de Sucurales<br />
                         </strong></td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style6"></td>
+                    <td class="auto-style14"></td>
+                    <td class="auto-style8"></td>
                 </tr>
                 <tr>
-                    <td>Busqueda ingrese Id sucursal:</td>
-                    <td>
+                    <td class="auto-style9">Busqueda ingrese Id sucursal:</td>
+                    <td class="auto-style10">
                         <asp:TextBox ID="txtBusqueda" runat="server"></asp:TextBox>
                     </td>
-                    <td>
-                        <asp:Button ID="btnFiltrar" runat="server" Text="Filtrar" OnClick="btnFiltrar_Click" />
+                    <td class="auto-style16">
+                        <asp:Button ID="btnFiltrar" runat="server" Text="Filtrar" OnClick="btnFiltrar_Click" Height="25px" />
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:Button ID="btnMostrartodos" runat="server" Height="25px" Text="Mostrar todos" />
                     </td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style12">&nbsp;</td>
                 </tr>
                 <tr>
-                    <td>
+                    <td class="auto-style3">
                         <asp:GridView ID="gvTabla" runat="server">
                         </asp:GridView>
 
                     </td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style4">&nbsp;</td>
+                    <td class="auto-style15">&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
             </table>
