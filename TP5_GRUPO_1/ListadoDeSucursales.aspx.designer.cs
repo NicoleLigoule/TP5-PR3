@@ -24,22 +24,22 @@ namespace TP5_GRUPO_1
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Control lbAgregar.
+        /// Control hpAgregarSucursal.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton lbAgregar;
+        protected global::System.Web.UI.WebControls.HyperLink hpAgregarSucursal;
 
         /// <summary>
-        /// Control lbListadoDeSucursales.
+        /// Control hpListarSucursales.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton lbListadoDeSucursales;
+        protected global::System.Web.UI.WebControls.HyperLink hpListarSucursales;
 
         /// <summary>
         /// Control txtBusqueda.

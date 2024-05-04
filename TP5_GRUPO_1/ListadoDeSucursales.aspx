@@ -57,11 +57,11 @@
             <table class="auto-style1">
                 <tr>
                     <td class="auto-style3">
-                        <asp:LinkButton ID="lbAgregar" runat="server">Agregar Sucursal</asp:LinkButton>
+                        <asp:HyperLink ID="hpAgregarSucursal" runat="server">Agregar sucursal</asp:HyperLink>
                         <br />
                     </td>
                     <td class="auto-style4">
-                        <asp:LinkButton ID="lbListadoDeSucursales" runat="server">Listado de sucursales</asp:LinkButton>
+                        <asp:HyperLink ID="hpListarSucursales" runat="server">Listado de sucursales</asp:HyperLink>
                     </td>
                     <td class="auto-style15">&nbsp;</td>
                     <td>&nbsp;</td>
