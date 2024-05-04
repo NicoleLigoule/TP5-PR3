@@ -22,8 +22,6 @@ namespace TP5_GRUPO_1
 
             filtrarSucursales();
             limpiarCampos();
-            
-
 
         }
 

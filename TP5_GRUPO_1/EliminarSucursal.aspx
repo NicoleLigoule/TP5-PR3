@@ -13,6 +13,9 @@
         .auto-style2 {
             height: 26px;
         }
+        .auto-style3 {
+            height: 31px;
+        }
     </style>
 </head>
 <body>
@@ -32,15 +35,19 @@
                     <td class="auto-style2"></td>
                 </tr>
                 <tr>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style3"></td>
+                    <td class="auto-style3"></td>
+                    <td class="auto-style3"></td>
+                    <td class="auto-style3"></td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td>
+                        <asp:TextBox ID="txtElimina" runat="server"></asp:TextBox>
+                    </td>
+                    <td>
+                        <asp:Button ID="btnEliminar" runat="server" OnClick="btnEliminar_Click" Text="Eliminar" />
+                    </td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
