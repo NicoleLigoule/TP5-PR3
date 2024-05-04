@@ -21,10 +21,5 @@ namespace TP5_GRUPO_1
             String consulta = "DELETE FROM Sucursal WHERE Id_Sucursal = @Id_Sucursal";
 
         }
-
-        protected int BuscarId(String consulta)
-        {
-           
-        } 
     }
 }
