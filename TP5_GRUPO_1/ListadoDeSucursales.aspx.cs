@@ -45,7 +45,7 @@ namespace TP5_GRUPO_1
 
 
 
-            if (txtBusqueda.Text.Length> 0 && botonfiltro == true/* && botonfiltro==true   // Este es tu aporte!*/)
+            if (txtBusqueda.Text.Length> 0/* && botonfiltro==true   // Este es tu aporte!*/)
             {
                 consulta += " WHERE s.Id_Sucursal = @Id_Sucursal";
             }
