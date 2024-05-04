@@ -52,7 +52,9 @@
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td>
+                        <asp:Label ID="lblMensaje" runat="server"></asp:Label>
+                    </td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>

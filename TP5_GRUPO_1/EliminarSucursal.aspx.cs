@@ -18,7 +18,9 @@ namespace TP5_GRUPO_1
 
         protected void btnEliminar_Click(object sender, EventArgs e)
         {
-            String consulta = "DELETE FROM Sucursal WHERE Id_Sucursal = @Id_Sucursal";
+            String consulta = "DELETE FROM Sucursal WHERE Id_Sucursal=" + txtElimina.Text;
+            int campos = conexion.ejecutaAgregado(consulta);
+            txtElimina.Text = "";
 
         }
     }
