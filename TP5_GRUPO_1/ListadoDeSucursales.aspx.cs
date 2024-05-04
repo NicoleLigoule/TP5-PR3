@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
+using System.Data;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -17,8 +19,36 @@ namespace TP5_GRUPO_1
 
         protected void btnFiltrar_Click(object sender, EventArgs e)
         {
-            string consulta = "select * from Sucursalwhere Id_Sucursal = " + txtBusqueda.Text + "";
-            
+
+            filtrarSucursales();
+
+
         }
+
+        protected void filtrarSucursales()
+        {
+            if (IsPostBack)
+            {
+                using (SqlConnection conexion = new SqlConnection("Data Source=localhost\\sqlexpress; Initial Catalog = BDSucursales; Integrated Security = True"))
+                {
+                    
+                    conexion.Open();
+
+                   
+                    string consulta = "select * from Sucursal where Id_Sucursal = @Id_Sucursal";
+                    SqlCommand cmd = new SqlCommand(consulta, conexion);
+                    cmd.Parameters.AddWithValue("@Id_Sucursal", txtBusqueda.Text);
+
+                  
+                    SqlDataReader dr = cmd.ExecuteReader();
+
+                   
+                    gvTabla.DataSource = dr;
+                    gvTabla.DataBind();
+                }
+            }
+        }
+
+
     }
 }

@@ -41,11 +41,23 @@
                     </td>
                     <td>
                         <asp:Button ID="btnFiltrar" runat="server" Text="Filtrar" OnClick="btnFiltrar_Click" />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     </td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td>&nbsp;</td>
+                    <td>
+                        <asp:GridView ID="gvTabla" runat="server" AutoGenerateColumns="False">
+    <Columns>
+        <asp:BoundField DataField="Id_Sucursal" HeaderText="Id Sucursal" />
+        <asp:BoundField DataField="NombreSucursal" HeaderText="Nombre" />
+        <asp:BoundField DataField="DescripcionSucursal" HeaderText="Descripcion" />
+        <asp:BoundField DataField="Id_ProvinciaSucursal" HeaderText="Provincia" />
+        <asp:BoundField DataField="DireccionSucursal" HeaderText="Direccion" />
+    </Columns>
+</asp:GridView>
+
+                    </td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
