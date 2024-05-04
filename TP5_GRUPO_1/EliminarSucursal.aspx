@@ -41,14 +41,18 @@
                     <td class="auto-style3"></td>
                 </tr>
                 <tr>
-                    <td>&nbsp;</td>
+                    <td>
+                        <asp:Label ID="lblsucursales" runat="server" Text="Ingresar ID sucursal:"></asp:Label>
+                    </td>
                     <td>
                         <asp:TextBox ID="txtElimina" runat="server"></asp:TextBox>
                     </td>
                     <td>
                         <asp:Button ID="btnEliminar" runat="server" OnClick="btnEliminar_Click" Text="Eliminar" />
                     </td>
-                    <td>&nbsp;</td>
+                    <td>
+                        <asp:RegularExpressionValidator ID="REVNumeros" runat="server" ControlToValidate="txtElimina" ForeColor="Red" ValidationExpression="^\d+$">Debe ingresar un valor numerico</asp:RegularExpressionValidator>
+                    </td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
