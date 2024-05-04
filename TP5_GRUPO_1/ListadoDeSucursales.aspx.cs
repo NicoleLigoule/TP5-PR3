@@ -21,8 +21,15 @@ namespace TP5_GRUPO_1
         {
 
             filtrarSucursales();
+            limpiarCampos();
+            
 
 
+        }
+
+        public void limpiarCampos()
+        {
+            txtBusqueda.Text = "";
         }
 
         protected void filtrarSucursales()
@@ -34,8 +41,9 @@ namespace TP5_GRUPO_1
                     
                     conexion.Open();
 
-                   
-                    string consulta = "select * from Sucursal where Id_Sucursal = @Id_Sucursal";
+
+                    string consulta = "select Id_Sucursal, NombreSucursal As Nombre, DescripcionSucursal As Descripcion, DescripcionProvincia AS Provincia, DireccionSucursal As Direccion from Sucursal s INNER JOIN Provincia p ON s.Id_ProvinciaSucursal = p.Id_Provincia WHERE s.Id_Sucursal = @Id_Sucursal";
+
                     SqlCommand cmd = new SqlCommand(consulta, conexion);
                     cmd.Parameters.AddWithValue("@Id_Sucursal", txtBusqueda.Text);
 
