@@ -65,14 +65,14 @@
             &nbsp;<table class="auto-style1">
                 <tr>
                     <td class="auto-style22">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <asp:LinkButton ID="lbAgregar" runat="server">Agregar Sucursal</asp:LinkButton>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;</td>
-                    <td class="auto-style24">
-                        <asp:LinkButton ID="lbListado" runat="server">Listado de Sucursales</asp:LinkButton>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;<asp:HyperLink ID="hlAgregar" runat="server" NavigateUrl="~/AgregarSucursal.aspx">Agregar Sucursal</asp:HyperLink>
                     </td>
                     <td class="auto-style24">
-                        <asp:LinkButton ID="lbEliminarSucursal" runat="server">Eliminar sucursal</asp:LinkButton>
+                        <asp:HyperLink ID="hlSucursal" runat="server" NavigateUrl="~/ListadoDeSucursales.aspx">Listado de Sucursales</asp:HyperLink>
+                    </td>
+                    <td class="auto-style24">
+                        <asp:HyperLink ID="hlEliminar" runat="server">Eliminar Sucursal</asp:HyperLink>
                     </td>
                     <td>&nbsp;</td>
                 </tr>
