@@ -19,6 +19,16 @@ namespace TP5_GRUPO_1
         protected void btnEliminar_Click(object sender, EventArgs e)
         {
             String consulta = "DELETE FROM Sucursal WHERE Id_Sucursal=" + txtElimina.Text;
+
+
+            bool lassucursalexiste = conexion.laSucursalExiste(int.Parse(txtElimina.Text));
+
+            if (!lassucursalexiste)
+            {
+                lblMensaje.Text = "La sucursal no existe";
+                return;
+            }
+
             int campos = conexion.ejecutaAgregado(consulta);
             txtElimina.Text = "";
 
