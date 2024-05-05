@@ -13,7 +13,7 @@ namespace TP5_GRUPO_1
     {
         private ClassSQLconexion conexion = new ClassSQLconexion();
 
-        private bool botonfiltro=false; // Este es tu aporte!
+        private bool botonfiltro = false;
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -35,7 +35,7 @@ namespace TP5_GRUPO_1
 
         protected void filtrarSucursales()
         {
-            botonfiltro = true; // Este es tu aporte!
+            botonfiltro = true;
             mostrarEnTabla();
         }
 
@@ -45,7 +45,7 @@ namespace TP5_GRUPO_1
 
 
 
-            if (txtBusqueda.Text.Length> 0/* && botonfiltro==true   // Este es tu aporte!*/)
+            if (txtBusqueda.Text.Length > 0 && botonfiltro == true)
             {
                 consulta += " WHERE s.Id_Sucursal = @Id_Sucursal";
             }
@@ -69,7 +69,7 @@ namespace TP5_GRUPO_1
         }
         protected void btnMostrartodos_Click(object sender, EventArgs e)
         {
-            botonfiltro=false; // Este es tu aporte!
+            botonfiltro = false;
             mostrarEnTabla();
         }
     }
