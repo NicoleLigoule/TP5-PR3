@@ -23,15 +23,31 @@ namespace TP5_GRUPO_1
             return filasAfectadas;
         }
 
-        public bool laSucursalExiste(int sucursal)
+        //public bool laSucursalExiste(int sucursal)
+        //{
+        //    bool existe = true;
+
+        //    string consulta = "SELECT COUNT(*) FROM Sucursal WHERE id_sucursal = " + sucursal+";";
+
+        //    int filasAfectadas = ejecutaAgregado(consulta);
+
+        //    return filasAfectadas == 1? existe : existe = false;
+        //}
+
+        public bool laSucursalExiste(int sucursalId)
         {
-            bool existe = true;
+            string consulta = "SELECT COUNT(*) FROM Sucursal WHERE Id_Sucursal = @SucursalId";
 
-            string consulta = "SELECT COUNT(*) FROM Sucursal WHERE id_sucursal = " + sucursal+";";
-            
-            int filasAfectadas = ejecutaAgregado(consulta);
-
-            return filasAfectadas == 1? existe : existe = false;
+            using (SqlConnection conexion = new SqlConnection(ruta))
+            {
+                using (SqlCommand comando = new SqlCommand(consulta, conexion))
+                {
+                    comando.Parameters.AddWithValue("@SucursalId", sucursalId);
+                    conexion.Open();
+                    int rowCount = (int)comando.ExecuteScalar();
+                    return rowCount > 0;
+                }
+            }
         }
 
         //public object ejecutaConsulta(string consulta)
@@ -42,6 +58,6 @@ namespace TP5_GRUPO_1
         //    return comando.ExecuteScalar();
         //}
 
-        
+
     }
 }
