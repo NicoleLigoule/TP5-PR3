@@ -31,6 +31,7 @@ namespace TP5_GRUPO_1
 
             int campos = conexion.ejecutaAgregado(consulta);
             txtElimina.Text = "";
+            lblMensaje.Text = "La sucursal se ha eliminado con éxito.";
 
         }
     }

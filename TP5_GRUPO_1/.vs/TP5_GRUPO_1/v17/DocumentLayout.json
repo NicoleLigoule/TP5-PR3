@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Nicole\\Desktop\\TP-pr3\\TP5_GRUPO_1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{768B37E0-EEB4-40B2-B117-1F8F93AAB779}|TP5_GRUPO_1.csproj|c:\\users\\nicole\\desktop\\tp-pr3\\tp5_grupo_1\\eliminarsucursal.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{768B37E0-EEB4-40B2-B117-1F8F93AAB779}|TP5_GRUPO_1.csproj|solutionrelative:eliminarsucursal.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{768B37E0-EEB4-40B2-B117-1F8F93AAB779}|TP5_GRUPO_1.csproj|C:\\Users\\Nicole\\Desktop\\TP-pr3\\TP5_GRUPO_1\\eliminarsucursal.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{768B37E0-EEB4-40B2-B117-1F8F93AAB779}|TP5_GRUPO_1.csproj|solutionrelative:eliminarsucursal.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{768B37E0-EEB4-40B2-B117-1F8F93AAB779}|TP5_GRUPO_1.csproj|c:\\users\\nicole\\desktop\\tp-pr3\\tp5_grupo_1\\eliminarsucursal.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{768B37E0-EEB4-40B2-B117-1F8F93AAB779}|TP5_GRUPO_1.csproj|solutionrelative:eliminarsucursal.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{768B37E0-EEB4-40B2-B117-1F8F93AAB779}|TP5_GRUPO_1.csproj|C:\\Users\\Nicole\\Desktop\\TP-pr3\\TP5_GRUPO_1\\classsqlconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -32,27 +32,27 @@
               "RelativeDocumentMoniker": "ClassSQLconexion.cs",
               "ToolTip": "C:\\Users\\Nicole\\Desktop\\TP-pr3\\TP5_GRUPO_1\\ClassSQLconexion.cs",
               "RelativeToolTip": "ClassSQLconexion.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAswDMAAAAAAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA7wDMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T15:39:23.215Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "EliminarSucursal.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Nicole\\Desktop\\TP-pr3\\TP5_GRUPO_1\\EliminarSucursal.aspx.cs",
               "RelativeDocumentMoniker": "EliminarSucursal.aspx.cs",
               "ToolTip": "C:\\Users\\Nicole\\Desktop\\TP-pr3\\TP5_GRUPO_1\\EliminarSucursal.aspx.cs",
               "RelativeToolTip": "EliminarSucursal.aspx.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAA1wBoAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T15:36:53.43Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "EliminarSucursal.aspx",
               "DocumentMoniker": "C:\\Users\\Nicole\\Desktop\\TP-pr3\\TP5_GRUPO_1\\EliminarSucursal.aspx",
               "RelativeDocumentMoniker": "EliminarSucursal.aspx",
